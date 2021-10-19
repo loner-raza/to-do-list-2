@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: rgba(231, 231, 231, 0.685);
+    overflow-x: hidden;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    margin: 10px 0 100px;
+}
+
+form button{
+    float: right;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 2px;
+    border: 1px solid teal;
+    text-align: center;
+}
+
+input:focus{
+    border-color:red;
+}
+
+button, select{
+    border: 1px solid teal;
+    color:darkslategray;
+    padding: 5px;
+    transition: .2s all;
+}
+
+select:hover{
+    border-color: red;
+}
+
+button:hover{
+    color:white;
+    background-color: teal;
+}
+
+/* postlist */
+
+h2{
+    text-align: center;
+}
+
+.content__page{
+    width: 100%;
+    border: 1px solid teal;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.buttons button{
+    margin-right: 5px;
+}
+
+.page{
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1>To-Do List</h1>
+        <div class="form">
+            <form>
+                <input id="body" type="text" placeholder="Body">
+                <input id="title" type="text" placeholder="Title">
+                <select id="sel" onchange="SS()">
+                    <option value="1">Active</option>
+                    <option value="2">Ended</option>
+                    <option value="3">Deleted</option>
+                </select>
+                <button id="addPostBtn">Add post</button>
+            </form>
+        </div>
+        <h2>Posts</h2>
+        <div class="postslist">
+            <div id="active__page" class="active__page page"></div>
+            <div style="display: none;" id="endPage" class="end__page page"></div>
+            <div style="display: none;" id="deletePage" class="delete__page page"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
